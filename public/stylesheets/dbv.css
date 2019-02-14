@@ -1,5 +1,5 @@
 @import url(bootstrap.css);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600&subset=latin,latin-ext);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600&subset=latin,latin-ext);
 
 body {
     font-size: 12px;
@@ -57,6 +57,12 @@ h3 {
 }
 h4 {
     font-size: 12px;
+}
+td.object-label label {
+    width: 207px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .nomargin {
     margin-bottom: 0 !important
